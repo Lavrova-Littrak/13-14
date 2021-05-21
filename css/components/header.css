@@ -1,0 +1,35 @@
+header {
+    padding-top: 10px;
+    padding-bottom: 100px;
+    background: #f6f2f2;
+}
+.header_menu {
+    background: #313030;
+    width: 100%;
+}
+
+.header_menu nav menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_menu nav menu li {
+    list-style: none;
+    padding: 30px 20px 30px 20px;
+}
+
+.header_menu nav menu li:not(:last-child) {
+    margin-right: 10px;
+} 
+
+.header_menu nav menu li:hover {
+    background: #ff3f40;
+}
+
+.header_menu nav menu li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+}

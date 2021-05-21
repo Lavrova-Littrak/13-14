@@ -1,0 +1,30 @@
+footer {
+    width: 100%;
+    height: 110px;
+    background: #313030;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.footer_left p {
+    color: rgba(255, 255, 255, 0.685);
+}
+
+
+.footer_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_right div:not(:last-child) {
+    margin-right: 30px;
+} 
+
+.footer_right div img {
+    width: 25px;
+    height: 25px;
+}

@@ -1,0 +1,9 @@
+@import '../css/common/index.css';
+@import '../css/components/header.css';
+@import '../css/components/main/banner.css';
+@import '../css/components/main/information_field.css';
+@import '../css/components/main/team.css';
+@import '../css/components/main/products.css';
+@import '../css/components/main/services.css';
+@import '../css/components/main/subscribe.css';
+@import '../css/components/footer.css';

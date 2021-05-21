@@ -1,0 +1,69 @@
+.information_field .container {
+    display: flex;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+.info_block {
+    margin-right: 200px;
+    height: 580px;
+}
+
+.info_block h1 {
+    margin-bottom: 30px;
+}
+.info_block p {
+    margin-bottom: 30px;
+}
+.info_block div {
+    width: 130px;
+    height: 1.5px;
+    background-color: #ff3b3b;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.entry-field form div {
+    display: flex;
+}
+
+.entry-field div input {
+    width: 330px;
+    height: 40px;
+    border-radius: 5%;
+    background-color: #e5e5e5;
+    border: none;
+}
+.entry-field div input:not(:last-child) {
+    margin-right: 30px;
+}
+
+.entry-field textarea {
+    width: 430px;
+    height: 200px;
+    border-radius: 3%;
+    background-color: #e5e5e5;
+    border: none;
+}
+
+.entry-field .send-button {
+    width: 430px;
+    height: 40px;
+    background-color: #ff3b3b;
+    border: none;
+    border-radius: 3%;
+    color: white;
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+.contact-info {
+    margin-top: 300px;
+    width: 100%;
+    height: 250;
+    background-color: #2d2d2d;
+    color: white;
+    text-align: justify;
+}
